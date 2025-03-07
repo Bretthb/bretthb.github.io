@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/bretthb.github.io/static/css/main.435b8eca.css",
-    "main.js": "/bretthb.github.io/static/js/main.add5043a.js",
-    "static/media/key-and-i.JPG": "/bretthb.github.io/static/media/key-and-i.c797d0c1a933cd764f6b.JPG",
-    "static/media/IMG-6740.jpg": "/bretthb.github.io/static/media/IMG-6740.43df38825f21dd1b2bb7.jpg",
-    "static/media/welding.PNG": "/bretthb.github.io/static/media/welding.52f696e372010343fd6f.PNG",
-    "static/media/beachpov.jpg": "/bretthb.github.io/static/media/beachpov.e45bb20eeacfbd058fd9.jpg",
-    "static/media/IMG_0668.jpg": "/bretthb.github.io/static/media/IMG_0668.23592d15af92be779f67.jpg",
-    "static/media/picthumb.JPG": "/bretthb.github.io/static/media/picthumb.0506876b3a693f2d2933.JPG",
-    "static/media/guitar.JPG": "/bretthb.github.io/static/media/guitar.5afb645fffd73cf28601.JPG",
-    "static/media/rocks.JPG": "/bretthb.github.io/static/media/rocks.076e2fffeec49f2c559c.JPG",
-    "static/media/sailing.jpg": "/bretthb.github.io/static/media/sailing.d5d70850d336d498b6c2.jpg",
-    "index.html": "/bretthb.github.io/index.html",
-    "main.435b8eca.css.map": "/bretthb.github.io/static/css/main.435b8eca.css.map",
-    "main.add5043a.js.map": "/bretthb.github.io/static/js/main.add5043a.js.map"
+    "main.css": "/static/css/main.435b8eca.css",
+    "main.js": "/static/js/main.e42dcb2d.js",
+    "static/media/key-and-i.JPG": "/static/media/key-and-i.c797d0c1a933cd764f6b.JPG",
+    "static/media/IMG-6740.jpg": "/static/media/IMG-6740.43df38825f21dd1b2bb7.jpg",
+    "static/media/welding.PNG": "/static/media/welding.52f696e372010343fd6f.PNG",
+    "static/media/beachpov.jpg": "/static/media/beachpov.e45bb20eeacfbd058fd9.jpg",
+    "static/media/IMG_0668.jpg": "/static/media/IMG_0668.23592d15af92be779f67.jpg",
+    "static/media/picthumb.JPG": "/static/media/picthumb.0506876b3a693f2d2933.JPG",
+    "static/media/guitar.JPG": "/static/media/guitar.5afb645fffd73cf28601.JPG",
+    "static/media/rocks.JPG": "/static/media/rocks.076e2fffeec49f2c559c.JPG",
+    "static/media/sailing.jpg": "/static/media/sailing.d5d70850d336d498b6c2.jpg",
+    "index.html": "/index.html",
+    "main.435b8eca.css.map": "/static/css/main.435b8eca.css.map",
+    "main.e42dcb2d.js.map": "/static/js/main.e42dcb2d.js.map"
   },
   "entrypoints": [
     "static/css/main.435b8eca.css",
-    "static/js/main.add5043a.js"
+    "static/js/main.e42dcb2d.js"
   ]
 }
