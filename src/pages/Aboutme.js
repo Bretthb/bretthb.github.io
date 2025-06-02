@@ -158,10 +158,12 @@ const Aboutme = ({ image }) => {
             <div className="about-section">
               <h2>Education</h2>
               <p>
-                Starting from high school, I attended a small private classical
-                Christian school. It opened my eyes to the wonderful world of
-                academics, making learning interesting rather than strict and
-                stale.
+                Starting in high school, I attended a small private classical
+                Christian school. This experience profoundly changed my
+                perspective on academics, reshaping my outlook on learning and
+                challenging my previous understandings. The school offered
+                courses in Koine Greek, Latin, Philosophy, History, and many
+                other valuable subjects.
               </p>
               <p>
                 After high school, I enrolled in a classical-taught program in
@@ -189,10 +191,6 @@ const Aboutme = ({ image }) => {
                 without extending my studies. I look forward to the future and
                 remain committed to pursuing difficult and meaningful
                 challenges.
-              </p>
-              <p>
-                As William Wallace famously said in Braveheart, "Every man dies,
-                not every man really lives."
               </p>
             </div>
           </div>
