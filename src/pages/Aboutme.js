@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import "./Aboutme.css";
 import styled from "styled-components";
 import Content from "../Components/ContentDiv";
+import PdfViewer from "../Components/PdfViewer";
 
 // Styling for the modal
 const Modal = styled.div`
@@ -41,12 +42,6 @@ const CloseButton = styled.button`
   display: flex;
   align-items: center;
   justify-content: center;
-`;
-
-const PdfViewer = styled.iframe`
-  width: 100%;
-  height: 800px; /* Set height for the PDF view */
-  border: none;
 `;
 
 const ImageContainer = styled.div`
@@ -209,7 +204,7 @@ const Aboutme = ({ image }) => {
       <Modal show={isModalOpen}>
         <ModalContent>
           <CloseButton onClick={closeModal}>×</CloseButton>
-          <PdfViewer src="/resume.pdf" title="Resume Viewer" />
+          <PdfViewer fileUrl="/resume.pdf" title="Resume Viewer" />
         </ModalContent>
       </Modal>
 
