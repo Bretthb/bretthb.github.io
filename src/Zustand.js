@@ -1,7 +1,7 @@
 import { create } from "zustand";
 
 const useStore = create((set) => ({
-  isSidebarVisible: true,
+  isSidebarVisible: false,
   isModalOpen: false,
   selectedPdf: null,
   selectedPdfName: "",
@@ -24,7 +24,7 @@ const useStore = create((set) => ({
       isModalOpen: false,
       selectedPdf: null,
       selectedPdfName: "",
-      isSidebarVisible: true,
+      isSidebarVisible: false,
     }),
 }));
 
