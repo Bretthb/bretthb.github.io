@@ -135,17 +135,17 @@ const Aboutme = ({ image }) => {
             <div className="about-section">
               <h2>General</h2>
               <p>
-                Hello, and welcome to my personal website, which I coded in
-                React. This website first started out as a project for learning
-                the React library but sooner than later I realized that rather
-                than leaving it in some repository and never touching it again,
-                I can use this to be an archive of interests and research,
-                aswell as a resourse for job recruiters to check out. While many
-                people journal about their thoughts and idea's with physical pen
-                and paper, I can code my thoughts and ideas into this website
-                deciding which information can remain public or private. It is a
-                limitless sandbox, which I can look back at one day, see how
-                much I have acomplished and hopefully feel satisfied.
+                Hello, and welcome to my personal website, built using React.
+                What started as a small project to learn the React library has
+                evolved into something much more meaningful. Instead of letting
+                it sit forgotten in a repository, I decided to turn it into a
+                living archive of my interests, technical explorations, and
+                research. While many people journal their thoughts with pen and
+                paper, I prefer to express mine through code, carefully curating
+                which ideas remain public and which stay private. This site is a
+                personal sandbox, a place for experimentation, reflection, and
+                growth. I hope that one day, looking back on it, I’ll see how
+                far I’ve come and feel proud of what I’ve built.
               </p>
             </div>
 
