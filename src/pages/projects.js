@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import styled from "styled-components";
 import useStore from "../Zustand"; // Import Zustand store
+import PdfViewer from "../Components/PdfViewer";
 
 // Define the pdfFiles array with the required metadata
 const pdfFiles = [
@@ -33,6 +34,13 @@ const pdfFiles = [
     category: "Math and Algorithms",
     description: "Overview of Singular Value Decomposition.",
     image: "/pictures/SVD.png",
+  },
+  {
+    name: "Get Out Official Project",
+    url: "/ProjectPdf/Get_Out_Official_Project.pdf",
+    category: "Software Development",
+    description: "Overview of the Get Out App",
+    image: "/pictures/getout.jpg",
   },
   // Add more PDFs with their respective data as needed
 ];
@@ -149,12 +157,6 @@ const CloseButton = styled.button`
   justify-content: center;
 `;
 
-const PdfViewer = styled.iframe`
-  width: 100%;
-  height: 700px;
-  border: none;
-`;
-
 const PdfNameInModal = styled.p`
   font-size: 18px;
   font-weight: bold;
@@ -216,7 +218,9 @@ const ProjectsPage = () => {
       <Modal show={isModalOpen}>
         <ModalContent>
           <CloseButton onClick={closeModal}>×</CloseButton>
-          {selectedPdf && <PdfViewer src={selectedPdf} title="PDF Viewer" />}
+          {selectedPdf && (
+            <PdfViewer fileUrl={selectedPdf} title="PDF Viewer" />
+          )}
           {selectedPdfName && (
             <PdfNameInModal>{selectedPdfName}</PdfNameInModal>
           )}

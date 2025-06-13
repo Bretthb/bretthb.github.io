@@ -1,5 +1,5 @@
 import Sidebar from "./SidebarNav/Sidebar";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { HashRouter as Router, Routes, Route } from "react-router-dom";
 import Aboutme from "./pages/Aboutme";
 import BooksRead from "./pages/Literature/BooksRead";
 import BooksToRead from "./pages/Literature/BooksToRead";
