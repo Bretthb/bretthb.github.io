@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.5582d3d2.css",
-    "main.js": "/static/js/main.9bd3037a.js",
+    "main.css": "/static/css/main.8575e0b4.css",
+    "main.js": "/static/js/main.c3175017.js",
     "static/media/key-and-i.JPG": "/static/media/key-and-i.c797d0c1a933cd764f6b.JPG",
     "static/media/IMG-6740.jpg": "/static/media/IMG-6740.43df38825f21dd1b2bb7.jpg",
     "static/media/welding.PNG": "/static/media/welding.52f696e372010343fd6f.PNG",
@@ -12,11 +12,11 @@
     "static/media/rocks.JPG": "/static/media/rocks.076e2fffeec49f2c559c.JPG",
     "static/media/sailing.jpg": "/static/media/sailing.d5d70850d336d498b6c2.jpg",
     "index.html": "/index.html",
-    "main.5582d3d2.css.map": "/static/css/main.5582d3d2.css.map",
-    "main.9bd3037a.js.map": "/static/js/main.9bd3037a.js.map"
+    "main.8575e0b4.css.map": "/static/css/main.8575e0b4.css.map",
+    "main.c3175017.js.map": "/static/js/main.c3175017.js.map"
   },
   "entrypoints": [
-    "static/css/main.5582d3d2.css",
-    "static/js/main.9bd3037a.js"
+    "static/css/main.8575e0b4.css",
+    "static/js/main.c3175017.js"
   ]
 }
