@@ -33,7 +33,7 @@ export const SidebarData = [
 
       {
         title: "Books to Read",
-        path: "/Literature/Books-To-Read",
+        path: "/Literature/BooksToRead",
         icon: <IoIcons.IoIosPaper />,
       },
     ],

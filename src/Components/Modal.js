@@ -6,7 +6,7 @@ const useStore = create((set) => ({
   selectedPdfName: "",
 
   openModal: (pdfUrl, pdfName) => {
-    console.log(`Opening PDF: ${pdfName}`); // ✅ Logs PDF Name
+    console.log(`Opening PDF: ${pdfName}`);
     set({ isModalOpen: true, selectedPdf: pdfUrl, selectedPdfName: pdfName });
   },
 

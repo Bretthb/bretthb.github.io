@@ -10,22 +10,29 @@
     outline-color: rgb(173, 171, 171);
     text-align: center;
     text-overflow: clip;
-    cursor: pointer; /* Makes the entire container clickable */
-    transition: background-color 0.3s ease, transform 0.3s ease; /* Smooth transition for background and scaling */
+    cursor: pointer; 
+    transition: background-color 0.3s ease, transform 0.3s ease; 
   }
   
   .BookContainer:hover {
-    background-color: rgba(255, 242, 229, 0.8); /* Change background color slightly */
-    transform: scale(1.05); /* Slightly increase size when hovered */
+    background-color: rgba(255, 242, 229, 0.8); 
+    transform: scale(1.05); 
   }
-  
-  .Image {
-    display: block;
-    outline-style: solid;
-    outline-color: rgb(184, 179, 179);
-    padding: 5px;
-    margin: auto;
-  }
+
+.Image {
+  display: block;
+  outline-style: solid;
+  outline-color: rgb(184, 179, 179);
+  padding: 5px;
+  margin: auto;
+
+  max-width: 200px;     
+  width: 100%;         
+  height: auto;        
+  object-fit: contain;  
+  border-radius: 8px;   
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+}
   
   .BookPage {
     position: relative;

@@ -10,7 +10,7 @@ const useStore = create((set) => ({
     set((state) => ({ isSidebarVisible: !state.isSidebarVisible })),
 
   openModal: (pdfUrl, pdfName) => {
-    console.log(`Opening PDF: ${pdfName}`); // ✅ Log the PDF name
+    console.log(`Opening PDF: ${pdfName}`);
     set({
       isModalOpen: true,
       selectedPdf: pdfUrl,
